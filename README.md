@@ -39,9 +39,9 @@ After exploring the data, I used multiple linear regression to see how different
 I included location, room type, minimum nights, number of reviews, and availability.
 I built two models:
 
-Original Price — using the original prices.
+## Original Price 
 
-Log Price — using the logarithm of prices.
+Log Price, using the logarithm of prices.
 The first model had an R² of 0.092, meaning it explained about 9% of the variation in prices.
 The log-price model had an R² of 0.473, meaning it explained about 47% of the variation in log prices.
 These results are not directly comparable because the models use different target scales.
