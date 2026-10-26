@@ -26,7 +26,9 @@ Most listings are in Manhattan and Brooklyn.
 Manhattan has the highest median price at 150 USD per night, while the Bronx has the lowest at 65 USD.
 I also compared different room types:
 Entire homes and apartments: 160 USD per night
+
 Private rooms: 70 USD per night
+
 Shared rooms: 45 USD per night
 
 Entire apartments are generally more expensive than private and shared rooms.
@@ -52,9 +54,13 @@ I compared both models using MAE and RMSE.
 ## Original Price Model
 
 MAE: 72.82 USD
+
 RMSE: 187.69 USD
+
 Log Price Model
+
 MAE: 62.99 USD
+
 RMSE: 189.85 USD
 
 The log-price model had a lower MAE, which means its predictions had smaller absolute errors on average.
